@@ -1,0 +1,15 @@
+{
+	"name": "SpotifyProjectAzureDF",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2f757ff5-0f3c-4b45-9eef-0d7ca559b43a",
+		"tenantId": "33789811-b725-4322-ba8e-ade964521dbd"
+	}
+}
