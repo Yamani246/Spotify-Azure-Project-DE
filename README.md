@@ -91,6 +91,10 @@ Instead of repeatedly loading the complete source tables, the pipeline uses CDC/
 
 This reduces unnecessary data movement and supports efficient ingestion.
 
+### SDP DAG 
+
+![SDP DAG GRAPH](image/SDP.png)
+
 ## 2. Metadata-Driven Pipeline
 
 The project implements a metadata-driven ingestion approach to make pipeline execution reusable and configurable.
