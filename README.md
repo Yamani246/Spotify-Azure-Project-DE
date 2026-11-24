@@ -93,7 +93,7 @@ This reduces unnecessary data movement and supports efficient ingestion.
 
 ### SDP DAG 
 
-![SDP DAG GRAPH](image/SDP.png)
+![SDP DAG GRAPH](images/sdp.png)
 
 ## 2. Metadata-Driven Pipeline
 
