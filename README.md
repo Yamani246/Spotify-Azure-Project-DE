@@ -79,6 +79,12 @@ The ingestion pipeline uses:
 - CDC tracking to identify and process changed records.
 - Watermark updates to maintain the latest processed value.
 
+  
+  ![ADF Pipeline](images/ADF_image1.png)
+
+  ![ADF Pipeline](images/ADF_image2.png)
+
+
 ### Incremental Data Loading
 
 Instead of repeatedly loading the complete source tables, the pipeline uses CDC/watermark-based processing to identify incremental changes and load the relevant records.
