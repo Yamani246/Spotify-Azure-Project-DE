@@ -1,0 +1,21 @@
+bundle:
+  name: Spotify
+  uuid: 9bad5a34-8281-4c58-9266-d89f2e311be9
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-7405617113599938.18.azuredatabricks.net
+      root_path: /Workspace/Users/yamanit123@gmail.com/.bundle/${bundle.name}/${bundle.target}
+      sync_mode: overwrite
+    
+  prod:
+    mode: production
+    workspace:
+      host: https://adb-7405617113599938.18.azuredatabricks.net
+      root_path: /Workspace/Spotify_Prod/.bundle/${bundle.name}/${bundle.target}
+    permissions:
+      - user_name: yamanit123@gmail.com
+        level: CAN_MANAGE
