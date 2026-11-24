@@ -39,7 +39,6 @@ The Databricks component follows the **Medallion Architecture**, organizing data
 Spotify-Databricks/
 │
 ├── jinja/          # Jinja templates
-├── resources/      # Databricks job and pipeline configurations
 ├── src/            # Python source code
 ├── utils/          # Reusable utility functions
 │
