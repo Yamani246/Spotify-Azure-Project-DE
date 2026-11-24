@@ -84,8 +84,3 @@ databricks bundle deploy -t prod
 
 The Azure Data Factory implementation is available in the `Azure-Data-Factory/` folder at the root of this repository.
 
-## Author
-
-**Yamani Tasubilli**
-
-GitHub: [Yamani246](https://github.com/Yamani246)
